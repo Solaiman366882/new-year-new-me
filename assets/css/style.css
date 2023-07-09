@@ -14,9 +14,12 @@ h1{
     font-size: 65px;
     font-weight: 700;
 }
+h2{
+    color: #151414;
+    font-size: 40px;
+}
 p{
     color: #444343;
-    text-align: right;
     font-size: 16px;
     line-height: 26px;
 }
@@ -71,5 +74,51 @@ ul{
 .hero p{
 	margin-top: 25px;
     margin-bottom: 30px;
+    text-align: right;
 }
 /* === Header Css Area End === */
+
+/* === Previous Year Section Css Area Start === */
+.previous-year {
+	width: 100%;
+	padding: 60px 0;
+}
+.previous-year-area {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 120px;
+}
+.previous-year-area .left-image img{
+    width: 450px;
+}
+.previous-year-area .right-text p{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.previous-year-area .right-text .prev-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.previous-year-area .right-text .prev-list-item{
+    position: relative;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.previous-year-area .right-text .prev-list-item::after {
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background: url("../images/icons/check.png");
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+/* === Previous Year Section Css Area End === */
