@@ -23,6 +23,16 @@ h3{
     font-size: 30px;
     font-weight: 700;
 }
+h4{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+h5{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
 p{
     color: #444343;
     font-size: 16px;
@@ -197,3 +207,51 @@ ul{
 	transform: translateY(-50%);
 }
 /* === Mind Set Section Css Area End === */
+
+/* === Footer Section Css Area Start === */
+.footer-section {
+	width: 100%;
+	background: #151414;
+	padding: 120px 0;
+}
+.footer-area {
+	width: 100%;
+	display: flex;
+	gap: 330px;
+}
+.footer-area .footer-left h4{
+    margin-bottom: 15px;
+}
+.footer-area .footer-left p{
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer-area .footer-left p.long{
+    margin-bottom: 25px;
+}
+.footer-area .footer-left .social-icon {
+	display: flex;
+	gap: 20px;
+    margin-top: 30px;
+}
+.footer-area .footer-left .social-icon img{
+	width: 40px;
+}
+.footer-area .footer-right input{
+	color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+.footer-area .footer-right input::placeholder{
+	opacity: 1;
+    color: #F3F3F3;
+}
+/* === Footer Section Css Area End === */
